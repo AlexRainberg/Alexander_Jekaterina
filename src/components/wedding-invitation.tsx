@@ -116,8 +116,19 @@ export function WeddingInvitation({
                 <p className="text-2xl sm:text-3xl font-elegant text-wedding-sage-800 mb-2">
                   С любовью и нетерпением,
                 </p>
-                <p className="text-xl sm:text-2xl font-elegant text-wedding-gold-600">
+                <p 
+                  className="
+                    text-xl sm:text-2xl font-elegant text-wedding-gold-600
+                    flex flex-col items-center
+                  "
+                >
                   Александр и Екатерина
+                  <Emoji
+                    name="sparkles"
+                    alt="блёстки"
+                    fallback="✨"
+                    className="mt-2 w-[1em] h-[1em] opacity-80"
+                  />
                 </p>
               </motion.div>
 
@@ -133,22 +144,6 @@ export function WeddingInvitation({
                 name="heart"
                 alt="сердце"
                 fallback="❤️"
-                className="inline-block w-[1em] h-[1em] align-baseline"
-              />
-            </motion.div>
-              
-              <motion.div
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, delay: 2 }}
-              viewport={{ once: true }}
-              className="absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl opacity-20"
-            >
-              {/* ✨ → sparkles */}
-              <Emoji
-                name="sparkles"
-                alt="блёстки"
-                fallback="✨"
                 className="inline-block w-[1em] h-[1em] align-baseline"
               />
             </motion.div>
