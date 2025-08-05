@@ -1,0 +1,41 @@
+{
+  "name": "wedding-invitation",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://[your-username].github.io/[your-repo-name]",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build",
+    "deploy": "npm run export && echo. > out/.nojekyll"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.1",
+    "@heroicons/react": "^2.1.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "next": "15.3.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^10.1.0",
+    "react-use-measure": "^2.1.1",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
+    "postcss": "^8.4.40",
+    "prettier": "^3.3.2",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5"
+  }
+}

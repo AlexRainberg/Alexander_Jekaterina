@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Playfair Display', 'Times New Roman', serif;
+  --font-serif: 'Playfair Display', 'Times New Roman', serif;
+  --font-elegant: 'Great Vibes', cursive;
+
+  --radius-4xl: 2rem;
+
+  /* Wedding colors - Premium Gold & Green */
+  --color-wedding-gold-50: #fefdf7;
+  --color-wedding-gold-100: #fdf9e8;
+  --color-wedding-gold-200: #faf1c4;
+  --color-wedding-gold-300: #f5e297;
+  --color-wedding-gold-400: #edc967;
+  --color-wedding-gold-500: #e4b143;
+  --color-wedding-gold-600: #d49836;
+  --color-wedding-gold-700: #b17d30;
+  --color-wedding-gold-800: #8f642c;
+  --color-wedding-gold-900: #755227;
+
+  --color-wedding-green-50: #f0fdf4;
+  --color-wedding-green-100: #dcfce7;
+  --color-wedding-green-200: #bbf7d0;
+  --color-wedding-green-300: #86efac;
+  --color-wedding-green-400: #4ade80;
+  --color-wedding-green-500: #22c55e;
+  --color-wedding-green-600: #16a34a;
+  --color-wedding-green-700: #15803d;
+  --color-wedding-green-800: #166534;
+  --color-wedding-green-900: #14532d;
+
+  --color-wedding-sage-50: #f7f9f7;
+  --color-wedding-sage-100: #eef2ee;
+  --color-wedding-sage-200: #d9e4d9;
+  --color-wedding-sage-300: #b8cdb8;
+  --color-wedding-sage-400: #8fb18f;
+  --color-wedding-sage-500: #6a936a;
+  --color-wedding-sage-600: #527852;
+  --color-wedding-sage-700: #426042;
+  --color-wedding-sage-800: #384e38;
+  --color-wedding-sage-900: #2f402f;
+}
+
+@keyframes move-x {
+  0% {
+    transform: translateX(var(--move-x-from));
+  }
+  100% {
+    transform: translateX(var(--move-x-to));
+  }
+}
