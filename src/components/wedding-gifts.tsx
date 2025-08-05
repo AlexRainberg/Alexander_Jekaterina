@@ -128,21 +128,6 @@ export function WeddingGifts() {
                   fallback="🎁"
                 />
               </motion.div>
-              
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 1.8 }}
-                viewport={{ once: true }}
-                className="absolute bottom-8 left-1/2 -translate-x-1/2 text-3xl opacity-20"
-              >
-                <Emoji
-                  name="ribbon_heart"
-                  alt=" "
-                  className="w-[1em] h-[1em] inline-block align-baseline"
-                  fallback="💝"
-                />
-              </motion.div>
             </div>
           </motion.div>
 
